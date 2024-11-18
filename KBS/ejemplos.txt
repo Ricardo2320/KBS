@@ -1,0 +1,24 @@
+(agregar-enfermedad "Dengue" "Viral" "fiebre alta" "dolor muscular" "erupciones cutáneas" "náuseas")
+(facts) ; Verifica que se agregó la nueva enfermedad.
+
+(agregar-enfermedad "Brucelosis" "Bacteriana" "fiebre recurrente" "dolor articular" "cansancio extremo" "sudores nocturnos")
+(facts) ; Revisa que el hecho esté presente.
+
+
+(actualizar-enfermedad "Gripe" "Viral" "fiebre leve" "tos seca" "cansancio moderado")
+(facts) ; Verifica los cambios realizados a la enfermedad "Gripe".
+
+
+(actualizar-enfermedad "Tuberculosis" "Viral" "tos crónica" "pérdida de peso" "dificultad para respirar")
+(facts) ; Observa que "Tuberculosis" se ha actualizado correctamente.
+
+
+(eliminar-enfermedad "COVID-19")
+(facts) ; Confirma que "COVID-19" ya no está en la base de conocimientos.
+
+
+(eliminar-enfermedad "Ébola")
+; Muestra un mensaje indicando que se intentó eliminar "Ébola" aunque no existía en la base.
+(facts) ; Verifica que la base de hechos no cambió.
+
+
